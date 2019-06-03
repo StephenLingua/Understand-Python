@@ -1,4 +1,2 @@
-# githubTest
-firshhhhhhht repository in github
-
-hihi
+# 深入理解python
+通过代码例子对一些模块与功能深度理解
