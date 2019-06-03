@@ -171,5 +171,11 @@ def odd_even(n):
 
 for x in odd_even(6):
     print(x)
+    
+# 当一个函数里使用了 yield 关键字，则该函数就被称为一个 generator （生成器）。
+# Generator 被调用时返回 Generator Object，它实现了 iterator 的接口。所以可以认为 generator 调用后返回了一个 iterator。
+# yeild 可以从控制流中暂时退出，之后可以从退出的位置恢复。通过加强版的语法还能在恢复时传递一些值给 generator。
+# yield from 语法可以用来方便地组合不同的 generator。
+# Generator 是生成 iterator 非常方便的工具，希望本文能让你对 generator 有更好的了解，也希望 Generator 能给你今后的 Python 生涯带来更多的方便。
 
 
