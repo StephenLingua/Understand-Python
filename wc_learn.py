@@ -80,7 +80,7 @@ def generate_wc(ci_dada, name):
     # # p.subplots()
     # # plt.subplot(2, 2, 1)  # 将窗口分为两行两列四个子图，则可显示四幅图片
     # # plt.title('{}'.format(name))  # 第一幅图片标题
-    # plt.imshow(wc)  # 绘制第一幅图片
+    # plt.imshow(wc)  # 绘制第一幅图片 cmap = prism
     # # plt.axis('off')  # 不显示坐标尺寸
     # #
     # # plt.imshow(wc)
